@@ -5,13 +5,13 @@ You would have to check out [Twitter Apps](https://apps.twitter.com/) to be able
 
 ```bash
 # Clone this repository
-git clone https://github.com/helium96/ISP-Tweeter
+$ git clone https://github.com/helium96/ISP-Tweeter
 # Go into the repository
-cd ISP-Tweeter
+$ cd ISP-Tweeter
 # Install Twython
 $ pip install twython
 #Run once....
 python flow.py
 #Run on an interval (900 seconds = 15 minutes)
-watch -n 900 python flow.py
+$ watch -n 900 python flow.py
 ```
