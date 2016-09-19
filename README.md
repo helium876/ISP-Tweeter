@@ -10,6 +10,8 @@ $ git clone https://github.com/helium96/ISP-Tweeter
 $ cd ISP-Tweeter
 # Install Twython
 $ pip install twython
+# Install Speedtest-Cli
+pip install speedtest-cli
 #Run once....
 python flow.py
 #Run on an interval (900 seconds = 15 minutes)
