@@ -1,9 +1,6 @@
 #!/usr/bin/python
 import os
 import sys
-import csv
-import datetime
-import time
 from twython import Twython
  
 def test():
@@ -12,8 +9,6 @@ def test():
         print 'Speed Test Complete'
         lines = a.split('\n')
         print a
-        ts = time.time()
-        date =datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d %H:%M:%S')
         #if speedtest could not connect set the speeds to 0
         if "Cannot" in a:
                 p = 100
