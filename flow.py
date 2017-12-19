@@ -32,7 +32,7 @@ def test():
         if "Cannot" in a:
                 try:
                         tweet="Hey @FLOWJamaica why is my internet down? I pay for 8down\\1up? #Fedup #PythonBot"
-                        twitter.statuses.update(status=tweet)
+                        twitter.update_status(status=tweet)
                 except:
                         pass
         elif eval(d)<8: #set de  speed yasso
